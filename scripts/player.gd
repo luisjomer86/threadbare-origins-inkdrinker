@@ -26,7 +26,7 @@ const _PLAYER_ACTIONS = {
 	set = _set_sprite_frames
 
 ## How fast does your character move?
-@export_range(0, 1000, 10, "suffix:px/s") var speed: float = 500.0:
+@export_range(0, 1000, 10, "suffix:px/s") var speed: float = 550.0:
 	set = _set_speed
 
 ## How fast does your character accelerate?
